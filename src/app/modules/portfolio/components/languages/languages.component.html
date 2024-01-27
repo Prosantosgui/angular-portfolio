@@ -1,0 +1,10 @@
+<h2>Idiomas</h2>
+
+<ul>
+@for (item of arrayLanguages(); track item) {
+    <li>
+      <img [src]="item.src" [alt]="item.alt" loading="lazy" width="60rem" height="50rem">
+      <em [innerHTML]="item.name"></em>
+    </li>
+}
+</ul>

@@ -8,11 +8,12 @@
   align-items: center;
   flex-direction: column;
 
-  h2 {
+  h2{
     text-align: center;
   }
 
-  ul {
+  ul{
+
     margin-top: 0;
 
     display: flex;
@@ -21,8 +22,8 @@
     flex-wrap: wrap;
     gap: 5px;
 
-    li {
-      width: 5rem;
+    li{
+      width: 6rem;
       height: 5rem;
       justify-content: space-between;
       flex-direction: column;
@@ -30,11 +31,8 @@
       background: var(--black);
 
       display: flex;
-      
       align-items: center;
-
       border-radius: 7px;
-
     }
   }
 }

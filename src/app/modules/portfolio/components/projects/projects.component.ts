@@ -15,16 +15,16 @@ export class ProjectsComponent {
   #dialog = inject(MatDialog);
   public arrayProjects = signal<IProjects[]>([
     {
-      src: 'assets/img/projects/vfull.png',
+      src: 'assets/img/projects/techunter1.png',
       alt: 'Projeto',
-      title: 'Vida FullStack',
-      width: '100px',
-      height: '51px',
-      description: '',
+      title: 'TecHunter',
+      width: '300px',
+      height: '70px%',
+      description: 'Portal de vagas específico para a área de T.I feito com Java e Spring Framework. API Rest com banco de dados PostgreSQL, Autenticação com JWT e Spring Security, testes unitários com Junit5.',
       links:[
         {
-          name: '',
-          href: 'https://google.com'
+          name: 'Conheça o TecHunter',
+          href: 'https://github.com/Prosantosgui/TecHunter'
         }
       ]
     }

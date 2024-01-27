@@ -7,7 +7,6 @@
   align-items: center;
   flex-direction: column;
 
-  background: var(--black-010);
 
   h2 {
     text-align: center;
@@ -46,6 +45,12 @@
     ul {
       li {
         flex: 100%;
+
+        button{
+          img{
+            width: 265px;
+          }
+        }
       }
     }
   }
