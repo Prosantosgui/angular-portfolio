@@ -59,6 +59,11 @@ export class KnowledgeComponent {
       src: 'assets/icons/knowledge/azure.svg',
       name: 'AZURE',
       alt: "Ícone de conhecimento de azure"
+    },
+    {
+      src: 'assets/icons/knowledge/scrum.svg',
+      name: 'SCRUM',
+      alt: 'Ícone de conhecimento de SCRUM'
     }
   ])
 
