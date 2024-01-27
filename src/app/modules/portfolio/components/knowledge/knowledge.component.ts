@@ -26,6 +26,11 @@ export class KnowledgeComponent {
       alt: "Ícone de conhecimento de javascript"
     },
     {
+      src: 'assets/icons/knowledge/typescript.svg',
+      name: 'TYPESCRIPT',
+      alt: "Ícone de conhecimento de Typescript"
+    },
+    {
       src: 'assets/icons/knowledge/angular.svg',
       name: 'ANGULAR',
       alt: "Ícone de conhecimento de Angular"
@@ -64,6 +69,16 @@ export class KnowledgeComponent {
       src: 'assets/icons/knowledge/scrum.svg',
       name: 'SCRUM',
       alt: 'Ícone de conhecimento de SCRUM'
+    },
+    {
+      src: 'assets/icons/knowledge/git.svg',
+      name: 'GIT',
+      alt: 'Ícone de conhecimento de Git'
+    },
+    {
+      src: 'assets/icons/knowledge/docker.svg',
+      name: 'DOCKER',
+      alt: 'Ícone de conhecimento de Docker'
     }
   ])
 
