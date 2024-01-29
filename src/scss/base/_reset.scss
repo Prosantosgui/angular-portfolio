@@ -26,3 +26,11 @@ ul{
   list-style: none;
   padding: 0;
 }
+li{
+  &:hover{
+    border: 1px solid white;
+    border-radius: 7px;
+    transform: scale(1.1);
+    transition: 1.2s;
+  }
+}

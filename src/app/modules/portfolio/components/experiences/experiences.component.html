@@ -1,14 +1,21 @@
 <div class="container">
   <h2>Últimas Experiências</h2>
   @for (item of arrayExperiences(); track item) {
-  <details>
-    <summary>
-      <p>
-        <strong>{{ item.summary.strong }}</strong>
-        {{ item.summary.p }}
-      </p>
-    </summary>
-    <article [innerHTML]="item.text"></article>
-  </details>
+    @defer (on viewport){
+    <details>
+      <summary>
+        <p>
+          <strong>{{ item.summary.strong }}</strong>
+          {{ item.summary.p }}
+        </p>
+      </summary>
+      <article [innerHTML]="item.text"></article>
+    </details>
+    }@placeholder {
+      <p>Carregando experiências...</p>
+    }
+    @error {
+      <p>Erro ao carregar!</p>
+    }
 }
 </div>
