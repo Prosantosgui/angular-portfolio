@@ -16,7 +16,7 @@ public arrayExperiences = signal<IExperiences[]>([
       strong: "Estagiário Java",
       p: "Mirante Tecnologia | 2021 - 2022"
     },
-    text: "<p>Durante meu período na Mirante integrei o time de desenvolvimento em Java e atuei na sustentação dos sistemas de grandes clientes nacionais como Embrapa e PM-DF. Atuei com Java Spring, Angular e Metodologia Agile</p>"
+    text: "<p>Durante meu período na Mirante integrei o time de desenvolvimento em Java e atuei na sustentação dos sistemas de grandes clientes nacionais como Embrapa e PM-DF. Atuei com Java Spring, Angular e Metodologia Agile.</p>"
   }
 ])
 }
