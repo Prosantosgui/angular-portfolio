@@ -30,7 +30,7 @@ public arrayExperiences = signal<IExperiences[]>([
   {
     summary:{
       strong: "Desenvolvedor Java",
-      p: "Mirante Tecnologia | 2024 - presente"
+      p: "Mirante Tecnologia | 2024 - o momento"
     },
     text : `<p>Atuando na manutenção e evolução do sistema de gestão da empresa, para atender da melhor forma possível seus colaboradores.</p>
 
