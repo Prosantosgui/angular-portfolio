@@ -32,15 +32,15 @@ public arrayExperiences = signal<IExperiences[]>([
       strong: "Desenvolvedor Java",
       p: "Mirante Tecnologia | 2024 - o momento"
     },
-    text : `<p>Atuando na manutenção e evolução do sistema de gestão da empresa, para atender da melhor forma possível seus colaboradores.</p>
-
-    <p>Monitoramento ativo do sistema em produção</p>
-
-    <p>Alterações e melhorias no sistemas que geram valor aos usuários</p>
-
-    <p>Alinhamento de requisitos com o usuário</p>
-
-    <p>Java 8 e Apache Wicket</p>`
+    text : `
+    <p> Atuando na manutenção e evolução do sistema de gestão da empresa, para atender da melhor forma possível seus colaboradores. Realizo o monitoramento ativo das rotinas do sistema em produção e o atendimento de requisições dos usuários. Análise do negócio, alterações em fluxos de processos existentes, criação de novos processos e participação em reuniões com colaboradores e líderes das áreas da empresa para alinhamento de requisitos.</p>
+    <p>Java 8, Apache Wicket, SQL</p>
+    <p>Criei processos para automatizar tarefas, diminuir retrabalho e risco de erro humano nos processos da empresa.</p>
+    <p>Realizo monitoramento ativo de rotinas em produção, identifico falhas e proponho soluções.</p>
+    <p>Implemento alterações e melhorias no sistema que geram valor aos usuários.</p>
+    <p>Realizo alinhamento de requisitos com o usuário e stakeholders via texto e chamadas de vídeo.</p>
+    <p>Atendimento das necessidades dos usuários por meio da conclusão de chamados abertos no sistema.</p>
+    `
   }
  ])
 }
